@@ -7,7 +7,7 @@ import ThirdComponent from './Components/ThirdComponent'
 function App() {
   return (
     <>
-      <BrowserRouter >
+      <BrowserRouter basename="/GrowMO/" >
           <Routes>
             <Route path="/" element={<FirstComp/>} />
             <Route path="/second-page" element={<SecondComp/>} />
